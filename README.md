@@ -5,6 +5,30 @@ Graphene we can use Django to create GraphQL APIs.
 
 ----------------------------------------------------------
 
+# Start the project
+
+Clone the repository :
+
+1: git clone git@github.com:devignesh/graphQL-Django.git
+
+2: cd graphQL-Django
+
+    I. pipenv shell   
+
+    II. pipenv install
+
+    III. cd blog  # app name
+
+3: python manage.py makemigrations  
+
+4: python mange.py migrate
+
+5: python mange.py runserver  
+
+----------------------------------------------------------
+
+
+
 # queries
 
 To get all the blog post 
