@@ -25,8 +25,10 @@ Clone the repository :
 
 5: python mange.py runserver  
 
-----------------------------------------------------------
+6: http://127.0.0.1:8000/graphql/    #open in your browser
 
+
+----------------------------------------------------------
 
 
 # queries
