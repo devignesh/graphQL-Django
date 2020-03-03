@@ -60,6 +60,7 @@ To get the blogpost with Comments
         title
         description
         publishedDate
+        updatedAt
         commentSet {
         
         id
@@ -68,6 +69,69 @@ To get the blogpost with Comments
 
     }
     }
+    
+    # Response
+    
+            {
+          "data": {
+            "blogpostall": [
+              {
+                "id": "1",
+                "author": "vignesh",
+                "title": "Python Django",
+                "description": "Sample Blog",
+                "publishedDate": "2020-03-03T02:31:22+00:00",
+                "updatedAt": null,
+                "commentSet": [
+                  {
+                    "id": "13",
+                    "comment": "comment"
+                  },
+                  {
+                    "id": "3",
+                    "comment": "Third comment"
+                  }
+                ]
+              },
+              {
+                "id": "2",
+                "author": "vicky",
+                "title": "Django graphQL",
+                "description": "Django testing",
+                "publishedDate": "2020-03-02T21:04:18.194415+00:00",
+                "updatedAt": null,
+                "commentSet": [
+                  {
+                    "id": "19",
+                    "comment": "test"
+                  },
+                  {
+                    "id": "16",
+                    "comment": "vv"
+                  },
+                  {
+                    "id": "15",
+                    "comment": "vv"
+                  },
+                  {
+                    "id": "14",
+                    "comment": "vv"
+                  },
+                  {
+                    "id": "12",
+                    "comment": "value"
+                  },
+                  {
+                    "id": "5",
+                    "comment": "File performance"
+                  },
+                  {
+                    "id": "4",
+                    "comment": "Mannual data"
+                  }
+                ]
+              }
+             }
 
 Query for get the particular blogpost and comments based on its ID 
 ---------------------------------------------------------------------
