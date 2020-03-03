@@ -107,6 +107,21 @@ Create a new blog post mutation
         }
     }
     }
+    
+    # Response 
+                {
+          "data": {
+            "createBlog": {
+              "createblogpost": {
+                "id": "8",
+                "author": "vickykumar",
+                "title": "test create blog",
+                "description": "test blog description",
+                "publishedDate": "2020-03-03T06:56:12.902488+00:00"
+              }
+            }
+          }
+        }
 
 Update a existing blog post based on  blog ID,
 ----------------------------------------------------------
