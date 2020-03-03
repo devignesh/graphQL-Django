@@ -118,6 +118,7 @@ Create a new blog post mutation
                 "title": "test create blog",
                 "description": "test blog description",
                 "publishedDate": "2020-03-03T06:56:12.902488+00:00"
+                "updatedAt": null
               }
             }
           }
