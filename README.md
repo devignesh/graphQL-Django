@@ -62,9 +62,8 @@ To get the blogpost with Comments
         publishedDate
         updatedAt
         commentSet {
-        
-        id
-        comment
+            id
+            comment
         }
 
     }
@@ -145,8 +144,8 @@ Query for get the particular blogpost and comments based on its ID
         publishedDate
         commentSet {
         
-        id
-        comment
+            id
+            comment
         }
 
     }
