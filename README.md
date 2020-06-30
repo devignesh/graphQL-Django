@@ -6,7 +6,7 @@ In graphQL Queries and mutation for getting data and changing data in server.
 
 Graphene we can use Django to create GraphQL APIs.
 
-----------------------------------------------------------
+--------------------------------------------------------
 
 # Start the project
 
