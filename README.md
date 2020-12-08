@@ -2,7 +2,7 @@
 
 This is simple blog post app using django and graphQL, We design an api schema for blogpost and comment. 
 
-In graphQL Queries and mutation for getting data and changing data in server.
+In graphQL Queries and mutation is used for getting data and changing data in server.
 
 Graphene we can use Django to create GraphQL APIs.
 
